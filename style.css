@@ -1,0 +1,58 @@
+.body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header{
+    border: 2px solid black;
+    width: 200px;
+    text-align: center;
+    justify-content:center ;
+}
+
+.traffic-light {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    height: 300px;
+    width: 100px;
+    background-color: #444444;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.light {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+.red {
+    background-color: #FF4136;
+    box-shadow: 0px 0px 30px #FF4136;
+}
+
+.yellow {
+    background-color: #FFDC00;
+    box-shadow: 0px 0px 30px #FFDC00;
+}
+
+.green {
+    background-color: #2ECC40;
+    box-shadow: 0px 0px 30px #2ECC40;
+}
+
+#change-light-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 20px;
+    background-color: #053849;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
